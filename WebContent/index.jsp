@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ include file="header.jsp" %>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +16,7 @@
     <title>LIGHT AND SALT</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
@@ -26,34 +30,6 @@
 </head>
 
 <body>
-    <!--============================= HEADER =============================-->
-    <div class="nav-menu">
-        <div class="bg transition">
-            <div class="container-fluid fixed">
-                <div class="row">
-                    <div class="col-md-12">
-                        <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html">Listing</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="icon-menu"></span>
-              </button>
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">로그인</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">로그아웃</a>
-                                    </li>
-                                    <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> Add Listing</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- SLIDER -->
     <section class="slider d-flex align-items-center">
         <!-- <img src="images/slider.jpg" class="img-fluid" alt="#"> -->
@@ -64,8 +40,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="slider-content_wrap">
-                                    <h1>Discover great places in New york</h1>
-                                    <h5>Let's uncover the best places to eat, drink, and shop nearest to you.</h5>
+                                    <h5>맛집을 찾는 여러분의 빛과 소금이 될</h5>
+                                    <h1>LIGHT AND SALT</h1>
                                 </div>
                             </div>
                         </div>
@@ -195,13 +171,13 @@
             <div class="row">
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured1.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating-orange">6.5</span>
                             <div class="featured-title-box">
                                 <h6>Burger & Lobster</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -226,13 +202,13 @@
                 </div>
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured2.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating-green">9.5</span>
                             <div class="featured-title-box">
-                                <h6>Joe’s Shanghai</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <h6>Joeâs Shanghai</h6>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -257,13 +233,13 @@
                 </div>
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured3.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating">3.2</span>
                             <div class="featured-title-box">
                                 <h6>Tasty Hand-Pulled Noodles</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -494,35 +470,13 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="featured-btn-wrap">
-                        <a href="#" class="btn btn-danger"><span class="ti-plus"></span> ADD LISTING</a>
+                        <a href="#" class="btn btn-danger"><span class="ti-user"></span> ADD LISTING</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--//END ADD LISTING -->
-    <!--============================= FOOTER =============================-->
-    <footer class="main-block dark-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="copyright">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p>Copyright &copy; 2018 Listing. All rights reserved | This template is made with <i class="ti-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <ul>
-                            <li><a href="#"><span class="ti-facebook"></span></a></li>
-                            <li><a href="#"><span class="ti-twitter-alt"></span></a></li>
-                            <li><a href="#"><span class="ti-instagram"></span></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--//END FOOTER -->
-
-
 
 
     <!-- jQuery, Bootstrap JS. -->
@@ -549,3 +503,5 @@
 </body>
 
 </html>
+
+<%@ include file="footer.jsp" %>
