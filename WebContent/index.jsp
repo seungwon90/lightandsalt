@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.html">Listing</a>
+                            <a class="navbar-brand" href="index.jsp">Listing</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="icon-menu"></span>
               </button>
@@ -43,7 +43,7 @@
                                         <a class="nav-link" href="#">로그인</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">로그아웃</a>
+                                        <a class="nav-link" href="#">로그아웃</a>
                                     </li>
                                     <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> Add Listing</a></li>
                                 </ul>
@@ -195,13 +195,13 @@
             <div class="row">
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured1.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating-orange">6.5</span>
                             <div class="featured-title-box">
                                 <h6>Burger & Lobster</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -226,13 +226,13 @@
                 </div>
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured2.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating-green">9.5</span>
                             <div class="featured-title-box">
-                                <h6>Joe’s Shanghai</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <h6>Joeâs Shanghai</h6>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -257,13 +257,13 @@
                 </div>
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
-                        <a href="detail.html">
+                        <a href="detail.jsp">
                             <img src="images/featured3.jpg" class="img-fluid" alt="#">
                             <span class="featured-rating">3.2</span>
                             <div class="featured-title-box">
                                 <h6>Tasty Hand-Pulled Noodles</h6>
-                                <p>Restaurant </p> <span>• </span>
-                                <p>3 Reviews</p> <span> • </span>
+                                <p>Restaurant </p> <span>â¢ </span>
+                                <p>3 Reviews</p> <span> â¢ </span>
                                 <p><span>$$$</span>$$</p>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
@@ -494,7 +494,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4">
                     <div class="featured-btn-wrap">
-                        <a href="#" class="btn btn-danger"><span class="ti-plus"></span> ADD LISTING</a>
+                        <a href="#" class="btn btn-danger"><span class="ti-user"></span> ADD LISTING</a>
                     </div>
                 </div>
             </div>
