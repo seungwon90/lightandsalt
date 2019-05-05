@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +15,7 @@
     <title>LIGHT AND SALT</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
@@ -45,7 +48,7 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">로그아웃</a>
                                     </li>
-                                    <li><a href="#" class="btn btn-outline-light top-btn"><span class="ti-plus"></span> Add Listing</a></li>
+                                    <li><a href="#" class="btn btn-outline-light top-btn"><span class="fa fa-user-circle-o"></span></a></li>
                                 </ul>
                             </div>
                         </nav>
