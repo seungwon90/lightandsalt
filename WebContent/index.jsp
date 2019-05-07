@@ -1,12 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<%@ include file="header.jsp" %>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ include file="header.jsp"%>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Colorlib">
@@ -16,13 +17,14 @@
     <title>LIGHT AND SALT</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet">
     <!-- Simple line Icon -->
     <link rel="stylesheet" href="css/simple-line-icons.css">
     <!-- Themify Icon -->
     <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <!-- Hover Effects -->
     <link rel="stylesheet" href="css/set1.css">
     <!-- Main CSS -->
@@ -40,8 +42,8 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="slider-content_wrap">
-                                    <h5>맛집을 찾는 여러분의 빛과 소금이 될</h5>
-                                    <h1>LIGHT AND SALT</h1>
+                                    <h5>맛집을 찾는 여러분에게 빛과 소금이 되어줄</h5>
+                                    <h1>LIGHT AND SALT</h1>                
                                 </div>
                             </div>
                         </div>
@@ -50,13 +52,9 @@
                                 <form class="form-wrap mt-4">
                                     <div class="btn-group" role="group" aria-label="Basic example">
                                         <input type="text" placeholder="What are your looking for?" class="btn-group1">
-                                        <input type="text" placeholder="New york" class="btn-group2">
                                         <button type="submit" class="btn-form"><span class="icon-magnifier search-icon"></span>SEARCH<i class="pe-7s-angle-right"></i></button>
                                     </div>
                                 </form>
-                                <div class="slider-link">
-                                    <a href="#">Browse Popular</a><span>or</span> <a href="#">Recently Addred</a>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,10 +79,10 @@
                     <div class="find-place-img_wrap">
                         <div class="grid">
                             <figure class="effect-ruby">
-                                <img src="images/find-place1.jpg" class="img-fluid" alt="img13" />
+                                <img src="images/find-food1.png" class="img-fluid" alt="img13" style="height: 580px" />
                                 <figcaption>
-                                    <h5>Nightlife </h5>
-                                    <p>385 Listings</p>
+                                    <h5>한식</h5>
+                                    <p>Korean food</p>
                                 </figcaption>
                             </figure>
                         </div>
@@ -96,10 +94,10 @@
                             <div class="find-place-img_wrap">
                                 <div class="grid">
                                     <figure class="effect-ruby">
-                                        <img src="images/find-place2.jpg" class="img-fluid" alt="img13" />
+                                        <img src="images/find-food2.png" class="img-fluid" alt="img13" style="height: 342px;" />
                                         <figcaption>
-                                            <h5>Restaurants</h5>
-                                            <p>210 Listings</p>
+                                            <h5>중식</h5>
+                                            <p>Chinese food</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -111,10 +109,10 @@
                             <div class="find-place-img_wrap">
                                 <div class="grid">
                                     <figure class="effect-ruby">
-                                        <img src="images/find-place3.jpg" class="img-fluid" alt="img13" />
+                                        <img src="images/find-food4.png" class="img-fluid" alt="img13" />
                                         <figcaption>
-                                            <h5>Outdoors </h5>
-                                            <p>114 Listings</p>
+                                            <h5>카페&디저트</h5>
+                                            <p>Cafe&dessert</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -128,10 +126,10 @@
                             <div class="find-place-img_wrap">
                                 <div class="grid">
                                     <figure class="effect-ruby">
-                                        <img src="images/find-place4.jpg" class="img-fluid" alt="img13" />
+                                        <img src="images/find-food3.png" class="img-fluid" alt="img13" />
                                         <figcaption>
-                                            <h5>Hotels </h5>
-                                            <p>577 Listings</p>
+                                            <h5>일식</h5>
+                                            <p>Japanese food</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -143,10 +141,10 @@
                             <div class="find-place-img_wrap">
                                 <div class="grid">
                                     <figure class="effect-ruby">
-                                        <img src="images/find-place5.jpg" class="img-fluid" alt="img13" />
+                                        <img src="images/find-food5.png" class="img-fluid" alt="img13" style="height: 355px;" />
                                         <figcaption>
-                                            <h5>Art & Culture </h5>
-                                            <p>79 Listings</p>
+                                            <h5>양식</h5>
+                                            <p>Western food</p>
                                         </figcaption>
                                     </figure>
                                 </div>
@@ -159,12 +157,80 @@
     </section>
     <!--//END FIND PLACES -->
     <!--============================= FEATURED PLACES =============================-->
+    <section class="services py-5">
+        <div class="container py-md-5">
+	        <div class="row justify-content-center">
+               <div class="col-md-5">
+                    <div class="styled-heading">
+                        <h3>믿고 보는 맛집 리스트</h3>
+                    </div>
+                </div>
+           	</div>
+            <div class="row ab-info second mt-lg-4">
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail1.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>강남역 맛집 베스트 20곳 </h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail2.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>강남 모임장소 추천 맛집 베스트 10곳</h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail3.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>가족모임 맛집 베스트 25곳</h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail4.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>베이커리 맛집 베스트 10곳</h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail5.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>혼술 맛집 베스트 10곳 </h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ab-content">
+                    <div class="ab-content-inner">
+                        <a href="single.html"><img src="images/main-food-thumnail6.jpg" alt="news image" class="img-fluid"></a>
+                        <div class="ab-info-con">
+                            <h4>중식 맛집 15곳</h4>
+                            <a href="single.html" class="read-more two btn m-0 px-3"><span class="fa fa-long-arrow-right"> </span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <section class="main-block light-bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-5">
                     <div class="styled-heading">
-                        <h3>Featured Places</h3>
+                        <h3>평점이 높은 인기 식당</h3>
                     </div>
                 </div>
             </div>
@@ -172,30 +238,24 @@
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
                         <a href="detail.jsp">
-                            <img src="images/featured1.jpg" class="img-fluid" alt="#">
-                            <span class="featured-rating-orange">6.5</span>
+                        	<div class="restaurant-thumnail-wrap">
+                           		<img src="images/main-restaurant-img1.jpg" class="img-fluid" alt="#">
+                           	</div>
+                            <span class="featured-rating-orange">4.8</span>
                             <div class="featured-title-box">
-                                <h6>Burger & Lobster</h6>
-                                <p>Restaurant </p> <span>â¢ </span>
-                                <p>3 Reviews</p> <span> â¢ </span>
-                                <p><span>$$$</span>$$</p>
+                                <h6>오지 편한식당</h6>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
-                                        <p>1301 Avenue, Brooklyn, NY 11230</p>
+                                        <p>서울시 관악구 봉천동 1610-24</p>
                                     </li>
                                     <li><span class="icon-screen-smartphone"></span>
-                                        <p>+44 20 7336 8898</p>
+                                        <p>010-5048-9914</p>
                                     </li>
                                     <li><span class="icon-link"></span>
-                                        <p>https://burgerandlobster.com</p>
+                                        <p>http://www.instagram.com/ojivvv</p>
                                     </li>
 
                                 </ul>
-                                <div class="bottom-icons">
-                                    <div class="closed-now">CLOSED NOW</div>
-                                    <span class="ti-heart"></span>
-                                    <span class="ti-bookmark"></span>
-                                </div>
                             </div>
                         </a>
                     </div>
@@ -203,13 +263,12 @@
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
                         <a href="detail.jsp">
-                            <img src="images/featured2.jpg" class="img-fluid" alt="#">
-                            <span class="featured-rating-green">9.5</span>
+	                        <div class="restaurant-thumnail-wrap">
+	                            <img src="images/main-restaurant-img2.jpg" class="img-fluid" alt="#">
+                            </div>
+                            <span class="featured-rating-green">4.8</span>
                             <div class="featured-title-box">
-                                <h6>Joeâs Shanghai</h6>
-                                <p>Restaurant </p> <span>â¢ </span>
-                                <p>3 Reviews</p> <span> â¢ </span>
-                                <p><span>$$$</span>$$</p>
+                                <h6>오죽이네</h6>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
                                         <p>1301 Avenue, Brooklyn, NY 11230</p>
@@ -222,11 +281,6 @@
                                     </li>
 
                                 </ul>
-                                <div class="bottom-icons">
-                                    <div class="closed-now">CLOSED NOW</div>
-                                    <span class="ti-heart"></span>
-                                    <span class="ti-bookmark"></span>
-                                </div>
                             </div>
                         </a>
                     </div>
@@ -234,13 +288,12 @@
                 <div class="col-md-4 featured-responsive">
                     <div class="featured-place-wrap">
                         <a href="detail.jsp">
-                            <img src="images/featured3.jpg" class="img-fluid" alt="#">
-                            <span class="featured-rating">3.2</span>
+                        	<div class="restaurant-thumnail-wrap">
+                            	<img src="images/main-restaurant-img3.jpg" class="img-fluid" alt="#">
+                            </div>
+                            <span class="featured-rating">4.8</span>
                             <div class="featured-title-box">
-                                <h6>Tasty Hand-Pulled Noodles</h6>
-                                <p>Restaurant </p> <span>â¢ </span>
-                                <p>3 Reviews</p> <span> â¢ </span>
-                                <p><span>$$$</span>$$</p>
+                                <h6>사잔카</h6>
                                 <ul>
                                     <li><span class="icon-location-pin"></span>
                                         <p>1301 Avenue, Brooklyn, NY 11230</p>
@@ -253,11 +306,6 @@
                                     </li>
 
                                 </ul>
-                                <div class="bottom-icons">
-                                    <div class="open-now">OPEN NOW</div>
-                                    <span class="ti-heart"></span>
-                                    <span class="ti-bookmark"></span>
-                                </div>
                             </div>
                         </a>
                     </div>
@@ -456,28 +504,6 @@
         </div>
     </section>
     <!--//END CATEGORIES -->
-    <!--============================= ADD LISTING =============================-->
-    <section class="main-block light-bg">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="add-listing-wrap">
-                        <h2>Reach millions of People</h2>
-                        <p>Add your Business infront of millions and earn 3x profits from our listing</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="featured-btn-wrap">
-                        <a href="#" class="btn btn-danger"><span class="ti-user"></span> ADD LISTING</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--//END ADD LISTING -->
-
 
     <!-- jQuery, Bootstrap JS. -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -503,5 +529,4 @@
 </body>
 
 </html>
-
-<%@ include file="footer.jsp" %>
+<%@ include file="footer.jsp"%>
