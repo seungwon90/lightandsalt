@@ -37,7 +37,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="index.jsp"></a>
+                            <a class="navbar-brand" href="main.jsp"></a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				                <span class="icon-menu"></span>
 			                </button>
@@ -47,7 +47,7 @@
 										<a href="#myModal" class="trigger-btn nav-link" data-toggle="modal">로그인</a>   
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="join.jsp">회원가입</a>
+                                        <a class="nav-link" href="joinForm.jsp">회원가입</a>
                                     </li>
                                     <li><a href="#" class="btn btn-outline-light top-btn"><span class="fa fa-user-circle-o"></span></a></li>
                                 </ul>
@@ -74,7 +74,7 @@
 											</form>
 										</div>
 										<div class="modal-footer">
-											<a href="#">회원가입</a>
+											<a href="joinForm.jsp">회원가입</a>
 										</div>
 									</div>
 								</div>
