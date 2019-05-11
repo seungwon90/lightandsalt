@@ -1376,6 +1376,31 @@ footer {
     -webkit-box-sizing: border-box;
 }
 
+.form-v7-content .form-detail .gender .value {
+	width: 100%;
+}
+
+.form-v7-content .form-detail .gender select {
+	border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 28px;
+}
+
+.form-v7-content .form-detail .gender .name {
+	color: #666;
+    font-weight: 600;
+    font-size: 13px;
+    margin-bottom: 3px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-v7-content .form-detail .gender .rs-select2 {
+	width: 100%;
+}
+
+
 /* Responsive */
 @media screen and (max-width: 991px) {
 	.form-v7-content {

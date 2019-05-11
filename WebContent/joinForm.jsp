@@ -39,14 +39,22 @@
 					<label for="your_birth">생년월일</label>
 					<input type="number" name="your_birth" id="your_birth" class="input-text" required pattern="[0-9]{6}">
 				</div>
-				<div class="form-row">
-					<select name="" id="" class="form-control">
-						<option value="" disabled="" selected="">성별</option>
-						<option value="male">남자</option>
-						<option value="femal">여자</option>
-					</select>
-					<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
-				</div>
+				<div class="form-row gender">
+	                <div class="name">성별</div>
+	                <div class="value">
+	                    <div class="input-group">
+	                        <div class="rs-select2 js-select-simple select--no-search">
+	                            <select name="subject" tabindex="-1" class="select2-hidden-accessible valid" aria-hidden="true" aria-invalid="false">
+	                                <option disabled="disabled" selected="selected">Choose option</option>
+	                                <option>Subject 1</option>
+	                                <option>Subject 2</option>
+	                                <option>Subject 3</option>
+	                            </select>
+	                            <div class="select-dropdown"></div>
+	                        </div>
+	                    </div>
+                     </div>
+                 </div>
 				<div class="form-row">
 					<label for="your_email">E-MAIL</label>
 					<input type="text" name="your_email" id="your_email" class="input-text" required pattern="[^@]+@[^@]+.[a-zA-Z]{2,6}">
